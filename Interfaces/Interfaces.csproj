@@ -43,11 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\ILocationStatus.cs" />
+    <Compile Include="Interfaces\IOnsiteWorker.cs" />
+    <Compile Include="Interfaces\IRemoteWorker.cs" />
+    <Compile Include="Models\Employees.cs" />
+    <Compile Include="Models\Jobs.cs" />
+    <Compile Include="Models\Locations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
