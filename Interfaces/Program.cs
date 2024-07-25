@@ -65,10 +65,11 @@ namespace Interfaces
             if (locationStatus.ToLower() == "remote")
             {
                 developer.IsRemote = true;
-                
+                //
+
             }
 
-                employees.Add(developer);
+            employees.Add(developer);
                 //remoteWorkers.Add(developer);
 
 
@@ -83,7 +84,7 @@ namespace Interfaces
                 }
                 else
                 {
-                    Console.WriteLine($" Name: {item.FirstName}, {item.LastName}, Location Status: Onsite");
+                    //Console.WriteLine($" Name: {item.FirstName}, {item.LastName}, Location Status: Onsite");
                 }
             }
             Console.ReadLine();

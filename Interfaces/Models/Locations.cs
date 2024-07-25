@@ -1,4 +1,5 @@
-﻿using Interfaces.Interfaces;
+﻿using System;
+using Interfaces.Interfaces;
 
 namespace Interfaces
 {
@@ -15,12 +16,12 @@ namespace Interfaces
 
             public void Onsite()
             {
-                throw new System.NotImplementedException();
+                Console.WriteLine($"Worksite: Onsite");
             }
 
             public void Remote()
             {
-                throw new System.NotImplementedException();
+                Console.WriteLine($"Worksite: Remote");
             }
         }
     }
